@@ -1,0 +1,35 @@
+header {
+    height: 77px;
+    background-color: $color-black;
+    .nav-container {
+        width: 800px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+    }
+    .header {
+        &__nav {
+            a {
+                padding: 0 10px;
+                text-decoration: none;
+                color: $color-pink;
+                font-size: 18px;
+                line-height: 18px;
+            }
+        }
+        &__phone {
+            color: $color-pink;
+            font-size: 18px;
+            line-height: 18px;
+        }
+        &__text-logo {
+            img {
+                display: block;
+                height: 77px;
+                width: 190px;
+            }
+        }
+    }
+}

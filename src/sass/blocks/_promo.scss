@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 77px;
+    background-color: $color-black;
+    &__text-logo {
+        img {
+            display: block;
+            height: 77px;
+            width: 190px;
+        }
+    }
+}
