@@ -1,14 +1,50 @@
-.header {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    height: 77px;
-    background-color: $color-black;
-    &__text-logo {
-        img {
-            display: block;
-            height: 77px;
-            width: 190px;
-        }
+.promo {
+    background-color: #FFF;
+    .container {
+        padding-bottom: 30px;
+        background: rgba(228, 173, 173, 0.3);
+    }
+    &__header {
+        margin-top: 0;
+        padding-top: 63px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        color: $color-pink;
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    &__item {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    img {
+        display: block;
+        width: 67px;
+        height: 67px;
+    }
+    &__item-img {
+        margin-left: 75px;
+        margin-bottom: 30px;
+    }
+    &__item-text {
+        margin-left: 30px;
+        margin-right: 75px;   
+    }
+    &__subheader {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: $color-pink;
+    }
+    &__text {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19px;
+        color: #000000;
     }
 }
