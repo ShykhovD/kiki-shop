@@ -1,0 +1,22 @@
+.about-us {
+    background: rgba(241, 161, 200, 0.8);
+    .container {
+        background: #464444;
+        padding-top: 22px;
+    }
+    &__header {
+        margin-top: 0;
+        text-align: center;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        color: $color-pink;
+    }
+    &__item {
+        display: flex;
+        flex-direction: row;
+    }
+    &__item-icon {
+       
+    }
+}
